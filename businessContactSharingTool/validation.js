@@ -1,4 +1,4 @@
-export function confirmIdentificataion(ID){
+function confirmIdentificataion(ID){
 
     let confimed = null;
 
@@ -10,7 +10,7 @@ export function confirmIdentificataion(ID){
     
 }
 
-export function dataCriteriaMatch(data){
+function dataCriteriaMatch(data){
     let confirmed = null;
 
     // Check if data is a match
@@ -20,3 +20,4 @@ export function dataCriteriaMatch(data){
 
 }
 
+export default {confirmIdentificataion,dataCriteriaMatch}

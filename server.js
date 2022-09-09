@@ -1,8 +1,12 @@
-const express = require("express")
-const cors = require("cors")
+import express from 'express'
+import cors from "cors"
+import validation from './businessContactSharingTool/validation.js'
+import database from './businessContactSharingTool/dataBaseInteraction.js'
+// const express = require("express")
+// const cors = require("cors")
 const app = express();
-const validation = require('./validation')
-const database = require('./dataBaseInteraction')
+// const validation = require('./validation')
+// const database = require('./dataBaseInteraction')
 
 app.use(cors({
     origin: '*'

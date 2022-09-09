@@ -1,5 +1,5 @@
 
-export function saveDataToDatabase(data){
+function saveDataToDatabase(data){
         const dataSavedSuccessful = null;
         // Save the data to the database
         dataSavedSuccessful = true;
@@ -8,3 +8,5 @@ export function saveDataToDatabase(data){
         // 
         return dataSavedSuccessful
 }
+
+export default {saveDataToDatabase}
